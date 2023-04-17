@@ -77,6 +77,8 @@ int main()
         cout << "몬스터 공격력 : " << aMonster2[i].nAtt << endl;
     }
 
+    delete[] aMonster2;
+
     system("pause");
     
     return 0;
