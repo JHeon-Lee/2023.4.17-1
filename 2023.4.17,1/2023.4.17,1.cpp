@@ -29,7 +29,7 @@ int main()
 
     tagMonster stMonster1 = { "뱀파이어", 50, 100, 25, 1 }; // 구조체 선언 및 초기화
 
-    cout << stMonster.strName.c_str() << "의 공격력은" << stMonster.nAtt << "이다." << endl;
+    cout << stMonster1.strName.c_str() << "의 공격력은" << stMonster1.nAtt << "이다." << endl;
 
     // 포인터를 사용한 동적할당
     // 동적할당은 데이터를 메모리에 담을 때 필요공간만 사용하기에 낭비가 줄어든다
